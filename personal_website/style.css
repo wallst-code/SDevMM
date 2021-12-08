@@ -1,3 +1,10 @@
+/* SDMM Personal Website Project */
+
+/* All background to grey */
+body {
+    background-color: rgb(250, 245, 245);
+}
+
 /* Top Nav Bar */
 .topnavbar {
   /* padding: 10px;   */
