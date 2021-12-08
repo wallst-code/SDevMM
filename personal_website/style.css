@@ -1,0 +1,70 @@
+/* Top Nav Bar */
+.topnavbar {
+  /* padding: 10px;   */
+  background-color: rgb(51, 51, 51);
+  border-radius: 5px;
+}
+
+.topnavbar a {
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Container Div */
+.container {
+  text-align: center;
+  
+}
+
+/* nav links */
+#navlink {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 10px;
+  /* hover effect */
+}
+
+/* Crop the Image & align - controls #headshot */
+#crop-image {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  align-items: center;
+}
+
+/* image-spacer */
+#image-spacer {
+  padding-bottom: 10px;
+}
+
+/* nav list */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: rgb(51, 51, 51);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+}
+
+/* Change the link color to #4CAF50 on hover */
+li a:hover {
+  background-color: rgb(76, 175, 80);
+}
+
