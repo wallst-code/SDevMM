@@ -26,12 +26,16 @@ body {
 }
 
 /* nav links */
-#navlink {
+.navlink {
   color: white;
   text-decoration: none;
   text-align: center;
   padding-left: 10px;
   /* hover effect */
+}
+
+#active {
+  background-color: rgb(76, 175, 80);
 }
 
 /* Crop the Image & align - controls #headshot */
@@ -46,7 +50,7 @@ body {
 }
 
 /* image-spacer */
-#image-spacer {
+.image-spacer {
   padding-bottom: 10px;
 }
 
