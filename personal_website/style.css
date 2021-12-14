@@ -34,6 +34,7 @@ body {
   /* hover effect */
 }
 
+/* keeps the current active page highlighted */
 #active {
   background-color: rgb(76, 175, 80);
 }
@@ -79,3 +80,9 @@ li a:hover {
   background-color: rgb(76, 175, 80);
 }
 
+/* contact link colors removes the old school look*/
+.contact-text {
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+}
